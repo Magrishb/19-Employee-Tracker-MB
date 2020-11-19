@@ -48,4 +48,4 @@ function DataBody({ users }) {
   );
 }
 
-export default DataBody;
+export default DaBody;
