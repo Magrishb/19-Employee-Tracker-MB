@@ -1,7 +1,7 @@
 import React from "react";
 import DataBody from "./DaBody";
 
-function DataTable({ headings, users, handleSort }) {
+function DaTable({ headings, users, handleSort }) {
   return (
     <div className="datatable mt-5">
       <table

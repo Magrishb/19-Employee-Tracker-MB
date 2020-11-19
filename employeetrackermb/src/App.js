@@ -6,7 +6,10 @@ import Wrapper from "./components/Wrapper";
 function App() {
   return (
     <div className="App">
-      <Wrapper></Wrapper>
+      <Wrapper>
+        <Header />
+        <Main />
+      </Wrapper>
     </div>
   );
 }
