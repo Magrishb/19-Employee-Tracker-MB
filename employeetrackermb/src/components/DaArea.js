@@ -15,7 +15,14 @@ export default class DaArea extends Component {
         { name: "Email", width: "20%" },
         { name: "DOB", width: "10%" }
       ]
-    
+      componentDidMount() {
+        API.getUsers().then(results => {
+          this.setState({
+            users: results.data.results,
+            filteredUsers: results.data.results
+          });
+        });
+      }
       render() {
         return (
           <>
