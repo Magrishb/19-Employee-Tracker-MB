@@ -1,5 +1,5 @@
 import React from "react";
-import DataBody from "./DaBody";
+import DaBody from "./DaBody";
 
 function DaTable({ headings, users, handleSort }) {
   return (
