@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import DataArea from "./DaArea";
+import DaArea from "./DaArea";
 
 export default class Main extends Component {
   render() {
     return (
       <>
-        <DataArea />
+        <DaArea />
       </>
     );
   }
