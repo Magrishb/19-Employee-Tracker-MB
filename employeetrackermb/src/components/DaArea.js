@@ -16,6 +16,17 @@ export default class DaArea extends Component {
         { name: "DOB", width: "10%" }
       ]
     
-      
-    }
-};
+      render() {
+        return (
+          <>
+            <Nav handleSearchChange={this.handleSearchChange} />
+            <div className="data-area">
+              <DaTable
+                headings={this.headings}
+                users={this.state.filteredUsers}
+                handleSort={this.handleSort}
+              />
+            </div>
+          </>
+        );
+        }};
